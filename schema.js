@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-// Define the User schema
+
 const userSchema = new Schema({
     username: {
         type: String,
@@ -18,7 +18,7 @@ const userSchema = new Schema({
         required: true
     },
     roles: {
-        type: [String], // Array of strings
+        type: [String],
         default: ['user']
     },
     profile: {
