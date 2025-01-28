@@ -24,15 +24,15 @@ const userSchema = new Schema({
     profile: {
         firstName: {
             type: String,
-            required: false
+            required: true
         },
         lastName: {
             type: String,
-            required: false
+            required: true
         },
         age: {
             type: Number,
-            required: false
+            required: true
         }
     },
     lastLogin: {
